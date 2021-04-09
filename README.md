@@ -1,5 +1,5 @@
 # Weather-Journal App Project
-![Design desktop preview for the wheather app](./imgs/desktop-preview.png)
+![Design desktop preview for the wheather app](./website/imgs/desktop-preview.png)
 ## NAME: Menna Mohsen Saad
 ## Track: Professional Track 
 
@@ -12,7 +12,7 @@
 *  Instructions.
 
 
-## project-Introduction
+## project Introduction
   ###  This project aims to create an asynchronous web app that uses Web API and user data to dynamically update the UI for a Weather-Journal App.
 
 
