@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Weather Journal</title>
+<link rel = "icon" href ="./imgs/icon.png" type = "image/x-icon">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700|Ranga:400,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+ <body>
+  <div class ="holder headline">
+    Weather Journal App
+  </div>
+  <div class ="holder zip">
+    <label for="zip">Enter Zipcode here</label>
+    <input type="text" id="zip" placeholder="Enter zip code here">
+  </div>
+  <div class ="holder feel">
+    <label for="feelings">How are you feeling today?</label>
+    <br>
+    <textarea class= "myInput" id="feelings" placeholder="Enter your feelings here" rows="9" cols="50"></textarea>
+    <br>
+    <button id="generate" type = "submit"> Generate </button>
+   
+
+<div class="container"> 
+  <div class = "title">Most Recent Entry</div>
+  <div class ="holder entry">
+    <div id = "temp"></div>
+    <div id = "date"></div> 
+   <div id="place"> </div>
+   <div id="weather">  </div>
+   <div id = "content"></div>
+  </div>
+ 
+  <div class="circle_container">
+    <div class="circle"></div>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+    <div class="circle3"></div>
+  </div>
+  <div class="ground1 ground1_night"></div>
+  <div class="ground2 ground2_night"></div>
+</div>
+
+
+<script src="app.js" type="text/javascript"></script>
+
+</body>
+</html>
