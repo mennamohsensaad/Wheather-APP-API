@@ -1,7 +1,7 @@
 # Weather-Journal App Project
+
 ![Design desktop preview for the wheather app](./website/imgs/desktop-preview.png)
-## NAME: Menna Mohsen Saad
-## Track: Professional Track 
+
 
 ## Table of Contents
 
